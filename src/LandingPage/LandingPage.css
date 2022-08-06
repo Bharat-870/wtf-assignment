@@ -155,4 +155,24 @@ h4 {
 .rightside::-webkit-scrollbar-thumb {
     background: rgb(192, 2, 2); 
     border-radius: 10px;
-  }
+}
+.divafternav {
+    padding: 20px 40px;
+    margin-top: 20px;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .divafternav {
+        padding: 10px 30px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .leftside{
+        width: 100%;
+    }
+    .rightside{
+        width: 100%;
+        margin-top: 40px;
+    }
+} 

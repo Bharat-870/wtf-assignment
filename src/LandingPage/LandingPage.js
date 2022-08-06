@@ -94,7 +94,7 @@ const LandingPage = () => {
           </button>
         </div>
       </nav>
-      <div style={{ padding: "20px 40px", marginTop: "20px", display: "flex" }}>
+      <div className="divafternav">
         <div className="leftside">
           <div
             style={{
